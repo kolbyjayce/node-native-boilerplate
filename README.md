@@ -11,6 +11,7 @@ This repository serves as a nearly minimal native extension built on [Nan](https
 To compile the extension for the first time, run 
 
 ```
+$ npm i -g node-gyp # assuming python 3.x.x
 $ npm i
 $ npm run configure
 $ npm run build
